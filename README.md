@@ -84,9 +84,9 @@ PySpark](http://mmlspark.azureedge.net/docs/pyspark/).
 
 ## Examples
 
-* Create an deep image classifier with transfer learning ([example 1])
+* Create an deep image classifier with transfer learning ([example 1], [example 9])
 * Fit a LightGBM classification or regression model on a biochemical dataset
-  ([example 2]), to learn more check out the [LightGBM documentation
+  ([example 3]), to learn more check out the [LightGBM documentation
   page](docs/lightgbm.md).
 * Deploy a deep network as a distributed web service with [MMLSpark
   Serving](docs/mmlspark-serving.md)
@@ -105,8 +105,8 @@ PySpark](http://mmlspark.azureedge.net/docs/pyspark/).
 
 See our [notebooks](notebooks/samples/) for all examples.
 
-[example 1]: notebooks/samples/Classification%20-%20Adult%20Census.ipynb
-  "Adult Census Income Training"
+[example 1]: notebooks/samples/DeepLearning%20-%20Transfer%20Learning.ipynb
+  "Deep Learning - Transfer Learning"
 [example 2]: notebooks/samples/Regression%20-%20Flight%20Delays.ipynb
   "Regression Example with Flight Delay Dataset"
 [example 3]: notebooks/samples/LightGBM%20-%20Quantile%20Regression%20for%20Drug%20Discovery.ipynb
@@ -310,6 +310,8 @@ Issue](https://help.github.com/articles/creating-an-issue/).
 ## Other relevant projects
 
 * [Microsoft Cognitive Toolkit](https://github.com/Microsoft/CNTK)
+
+* [Microsoft LightGBM](https://github.com/Microsoft/LightGBM)
 
 * [Azure Machine Learning
   preview features](https://docs.microsoft.com/en-us/azure/machine-learning/preview)
