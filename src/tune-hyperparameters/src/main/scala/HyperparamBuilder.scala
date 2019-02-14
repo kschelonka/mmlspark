@@ -109,6 +109,9 @@ class HyperparamBuilder {
   /** Builds the search space of hyperparameters.
     * @return The map of hyperparameters to search through.
     */
-  def build(): Array[(Param[_], Dist[_])] = hyperparams.toArray
+  def build(): Array[(Param[_], Dist[_])] = {
+    val hyperparamArray = hyperparams.toArray
+    hyperparamArray
+  }
 
 }
