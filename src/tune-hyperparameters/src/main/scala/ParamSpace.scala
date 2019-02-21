@@ -39,5 +39,12 @@ class RandomSpace(paramDistributions: Array[(Param[_], Dist[_])]) extends ParamS
     override def next(): ParamMap =
       ParamMap(paramDistributions.map(paramDist => paramDist._2.getParamPair(paramDist._1)): _*)
   }
+  def buildParamGrid(numMaps: Int): Array[ParamMap] = {
+    var nativeParamMaps = Array(new ParamMap)
 
+    for (n <- 0 until numMaps) {
+      nativeParamMaps = nativeParamMaps :+ this.paramMaps.next()
+    }
+    nativeParamMaps
+  }
 }
